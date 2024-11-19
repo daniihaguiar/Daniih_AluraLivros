@@ -1,0 +1,53 @@
+/* Responsividade */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        margin-top: 10px;
+        width: 100%;
+        display: block;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .banner {
+        padding: 30px 0;
+    }
+
+    .livro-card {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .banner h2 {
+        font-size: 28px;
+    }
+
+    .banner p {
+        font-size: 16px;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+
+    .livros h2 {
+        font-size: 24px;
+    }
+
+    .livro-card {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+}
